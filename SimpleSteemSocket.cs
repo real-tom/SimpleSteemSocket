@@ -36,7 +36,7 @@ namespace SimpleSteemSocket
         private Uri mURI;
         private ClientWebSocket mCWS;
 
-        public SimpleSteemSocket(string uri = "wss://steemd.steemit.com")
+        public SimpleSteemSocket(string uri = "wss://seed.bitcoiner.me")
         {
             mURI = new Uri(uri);
             mCWS = new ClientWebSocket();
